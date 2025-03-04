@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <generic>
+    <output>
+      <binary_mode>true</binary_mode>
+      <byte_order>network</byte_order> 
+      <var_separator>none</var_separator> 
+      <line_separator>none</line_separator> 
+      <binary_footer>none</binary_footer> 
+
+      <chunk>
+        <name>roll-deg</name>
+        <type>double</type>
+        <node>/orientation/roll-deg</node>
+      </chunk>
+
+      <chunk>
+        <name>pitch-deg</name>
+        <type>double</type>
+        <node>/orientation/pitch-deg</node>
+      </chunk>
+
+      <chunk>
+        <name>heading-deg</name>
+        <type>double</type>
+        <node>/orientation/heading-deg</node>
+      </chunk>
+
+      <chunk>
+        <name>altitude-ft</name>
+        <type>double</type>
+        <node>/position/altitude-ft</node>
+      </chunk>
+
+      <chunk>
+        <name>airspeed-kt</name>
+        <type>double</type>
+        <node>/velocities/airspeed-kt</node>
+      </chunk>
+
+      <chunk>
+        <name>roll-rate</name>
+        <type>double</type>
+        <node>/orientation/roll-rate-degps</node>
+      </chunk>
+
+      <chunk>
+        <name>pitch-rate</name>
+        <type>double</type>
+        <node>/orientation/pitch-rate-degps</node>
+      </chunk>
+
+      <chunk>
+        <name>yaw-rate</name>
+        <type>double</type>
+        <node>/orientation/yaw-rate-degps</node>
+      </chunk>
+      
+      <chunk>
+        <name>vertical-speed-fps</name>
+        <type>double</type>
+        <node>/velocities/vertical-speed-fps</node>
+      </chunk>
+     
+     <chunk>
+        <name>latitude-deg</name>
+        <type>double</type>
+        <node>/position/latitude-deg</node>
+      </chunk>
+      
+      <chunk>
+        <name>longitude-deg</name>
+        <type>double</type>
+        <node>/position/longitude-deg</node>
+      </chunk>
+      
+    </output>
+  </generic>
+</PropertyList>
